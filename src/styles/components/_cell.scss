@@ -1,0 +1,38 @@
+.cell {
+  width: 10rem;
+  height: 10rem;
+  margin: 0.4rem;
+  border: 1px solid #313131;
+  border-radius: 8px;
+  font-size: 4rem;
+  text-align: center;
+  background-color: $color-secondary-light;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    outline: 3px solid $color-primary;
+    outline-offset: -5px;
+  }
+
+  &__mute {
+    opacity: 0.4;
+  }
+
+  &__error {
+    color: $color-error;
+    background-color: rgba($color-error, 0.05);
+    border-color: $color-error;
+  }
+
+  &__mute:hover {
+    outline: none;
+  }
+
+  &__horizontal-verge {
+    margin-right: 1.2rem;
+  }
+}
