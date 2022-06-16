@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 
-  &:nth-child(3n) {
+  &:nth-child(3n + 1) {
     margin-bottom: 0.6rem;
   }
 }
