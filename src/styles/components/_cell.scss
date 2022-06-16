@@ -18,21 +18,21 @@
     outline-offset: -0.5rem;
   }
 
-  &__mute {
+  &--mute {
     opacity: 0.4;
   }
 
-  &__error {
+  &--error {
     color: $color-error;
     background-color: rgba($color-error, 0.05);
     border-color: $color-error;
   }
 
-  &__mute:hover {
+  &--mute:hover {
     outline: none;
   }
 
-  &__horizontal-verge {
+  &--horizontal-verge {
     margin-right: 0.8rem;
   }
 }
