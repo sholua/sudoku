@@ -2,8 +2,8 @@ import "./styles/main.scss";
 
 function App() {
   return (
-    <div className="game-layout">
-      <div className="sudoku u-text-center">
+    <div className="game-layout u-text-center">
+      <div className="sudoku">
         <div className="sudoku-row">
           <input className="cell cell__mute" type="text" value={1} readOnly />
           <input className="cell" type="text" value={""} />
